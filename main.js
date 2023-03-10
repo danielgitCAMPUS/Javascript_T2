@@ -1,24 +1,14 @@
-console.log(`En JavaScript, los operadores de comparación se utilizan para comparar dos valores y devolver un valor booleano true o false. Los operadores de comparación disponibles en JavaScript son los siguientes:
+console.log(`En JavaScript, los operadores lógicos se utilizan para combinar o negar valores booleanos. Los operadores lógicos disponibles en JavaScript son los siguientes:
 
-==: igualdad (compara si dos valores son iguales)
-!=: desigualdad (compara si dos valores son diferentes)
-===: igualdad estricta (compara si dos valores son iguales y tienen el mismo tipo de dato)
-!==: desigualdad estricta (compara si dos valores son diferentes o tienen tipos de datos diferentes)
->: mayor que (compara si un valor es mayor que otro)
-<: menor que (compara si un valor es menor que otro)
->=: mayor o igual que (compara si un valor es mayor o igual que otro)
-<=: menor o igual que (compara si un valor es menor o igual que otro)`);
+&&: operador AND (retorna true si ambos operandos son verdaderos, de lo contrario retorna false)
+||: operador OR (retorna true si alguno de los operandos es verdadero, de lo contrario retorna false)
+!: operador NOT (retorna el valor opuesto del operando)`);
 
 let x = 27;
 let y = 10;
 
 console.log(`x: ${x} , y: ${y}`)
 
-console.log("igualdad", x == y); // false
-console.log("desigualdad",x != y); // true
-console.log("igualdad estricta",x === '10'); // false
-console.log("desigualdad estricta",x !== '10'); // true
-console.log("mayor que ",x > y); // true
-console.log("menor que",x < y); // false
-console.log("mayor o igual que",x >= y); // true
-console.log("menor o igual que",x <= y); // false
+console.log("AND", x > 5 && y < 10); 
+console.log("OR",x > 5 || y > 10); 
+console.log("NOT", !(x > y)); 
