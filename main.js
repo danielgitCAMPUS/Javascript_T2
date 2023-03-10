@@ -1,6 +1,6 @@
-console.log(` <--- Metodo search: Busca una cadena para una expresión regular y devuelve el índice del primer carácter de la primera coincidencia. --->`);
-let cadena = "Daniel Fernández";
-let regex  = /nán/;
-console.log(`Cadena: ${cadena} , Regex: ${regex}
-    cadena.search(regex): ${cadena.search(regex)}
-    Retorna el indice de la primera n en cadena, basada en la busqueda de regex`);
+console.log(` <--- Metodo localeCompare: se utiliza para comparar dos cadenas en función de la configuración regional actual del usuario. --->`);
+let cadena = "Daniel";
+let cadena2  = "Fernández";
+console.log(`Cadena #1: ${cadena} , Cadena #2: ${cadena2}
+    cadena.localeCompare(cadena2): ${cadena.localeCompare(cadena2)}
+    `);
