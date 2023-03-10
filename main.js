@@ -1,3 +1,4 @@
 let cadena = "Daniel Fernandez";
-console.log("<--- Propiedad length --->");
-console.log(`La longitud de la cadena  "${cadena}" es: ${cadena.length}`);
+console.log("<--- Metodo chatAt: Devuelve el carácter en el índice especificado.  --->");
+console.log(`Cadena : "${cadena}" 
+    Caracter en el indice 4 es: ${cadena.charAt(4)}`);
