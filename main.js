@@ -1,4 +1,5 @@
-
-console.log(` <--- Metodo fromCharCode: se utiliza para crear una cadena a partir de un conjunto de valores Unicode especificados. --->`);
-console.log(`Para que retorne un Hello: 
-    String.fromCharCode(72, 101, 108, 108, 111): ${String.fromCharCode(72, 101, 108, 108, 111)}`);
+console.log(` <--- Metodo concat: Combina dos o más cadenas y devuelve una nueva cadena. --->`);
+let cadena1 = "Campus";
+let cadena2 = "Land";
+let cadena_nueva = cadena1.concat(" ", cadena2);
+console.log(cadena_nueva);
