@@ -1,4 +1,4 @@
 let cadena = "Daniel Fernandez";
-console.log("<--- Metodo chatAt: Devuelve el carácter en el índice especificado.  --->");
+console.log("<--- Metodo charCodeAt: Devuelve el valor Unicode del carácter en el índice especificado.  --->");
 console.log(`Cadena : "${cadena}" 
-    Caracter en el indice 4 es: ${cadena.charAt(4)}`);
+    Valor unicode en el indice 9 es: ${cadena.charCodeAt(9)}`);
