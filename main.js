@@ -1,7 +1,6 @@
-console.log(`<--- Metodo slice: Devuelve una sección de una cadena. --->`);
+console.log(`<--- Metodo substr: se utiliza para devolver una parte de una cadena, comenzando desde el índice especificado y con la longitud especificada. --->`);
 let cadena = "Daniel Fernández";
 
 console.log(`Cadena: ${cadena}
-    cadena.slice(0,6): ${cadena.slice(0,6)}
-    cadena.slice(7,16): ${cadena.slice(7,16)}
+    cadena.substr(0,6): ${cadena.substr(0,6)}    
 `);
