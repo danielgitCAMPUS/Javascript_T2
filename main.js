@@ -1,6 +1,6 @@
-console.log(` <--- Metodo localeCompare: se utiliza para comparar dos cadenas en función de la configuración regional actual del usuario. --->`);
-let cadena = "Daniel";
-let cadena2  = "Fernández";
-console.log(`Cadena #1: ${cadena} , Cadena #2: ${cadena2}
-    cadena.localeCompare(cadena2): ${cadena.localeCompare(cadena2)}
+console.log(` <--- Metodo match: Busca una cadena para una expresión regular y devuelve las coincidencias como un array. --->`);
+let cadena = "Daniel Fernández";
+let regex = /[aeiou]/g;
+console.log(`Cadena: ${cadena} , Regex : ${regex} , donde g complementa el metodo match para que todos los resultados que coincidan con la expresión regular completa
+    cadena.match(regex): ${cadena.match(regex)}
     `);
