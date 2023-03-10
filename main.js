@@ -1,6 +1,22 @@
-console.log(` <--- Metodo match: Busca una cadena para una expresión regular y devuelve las coincidencias como un array. --->`);
+console.log(` <--- Metodo matchAll: Busca todas las coincidencias de una expresión regular en una cadena dada y devuelve un objeto iterable que contiene información sobre cada coincidencia encontrada. --->`);
 let cadena = "Daniel Fernández";
 let regex = /[aeiou]/g;
-console.log(`Cadena: ${cadena} , Regex : ${regex} , donde g complementa el metodo match para que todos los resultados que coincidan con la expresión regular completa
-    cadena.match(regex): ${cadena.match(regex)}
+let result = cadena.matchAll(regex);
+
+
+console.log(`Cadena: ${cadena} , Regex : ${regex},
+    result = cadena.matchAll(regex), 
+    
+    el resultado es un objeto iterable que se puede recorrer con un for of
+
+    for (const match of result) {
+        console.log(match);        
+    }
+
+    Resultado: 
     `);
+
+for (const match of result) {
+    console.log(match);
+    
+}
