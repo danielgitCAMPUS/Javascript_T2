@@ -1,6 +1,7 @@
-console.log(`<--- Metodo split:  se utiliza para dividir una cadena en una matriz de subcadenas, utilizando un separador especificado. --->`);
+console.log(`<--- Metodos toLowerCase y toUpperCase: se utilizan para convertir una cadena a minúsculas o mayúsculas. --->`);
 let cadena = "Daniel Felipe Fernández Rincón";
 
 console.log(`Cadena: ${cadena}
-    cadena.split(" "): ${cadena.split(" ")}    
+    cadena.toLowerCase(): ${cadena.toLowerCase()}    
+    cadena.toUpperCase(): ${cadena.toUpperCase()}    
 `);
