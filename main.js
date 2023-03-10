@@ -1,5 +1,5 @@
-console.log(` <--- Metodo concat: Combina dos o más cadenas y devuelve una nueva cadena. --->`);
-let cadena1 = "Campus";
-let cadena2 = "Land";
-let cadena_nueva = cadena1.concat(" ", cadena2);
-console.log(cadena_nueva);
+console.log(` <--- Metodo indexOf:  Devuelve el índice del primer carácter especificado en una cadena. --->`);
+let cadena = "Daniel Fernández";
+console.log(`Cadena: ${cadena}
+    cadena.indexOf("á"): Buscar el caracter "á" 
+    Indice de á: ${cadena.indexOf("á")}`);
