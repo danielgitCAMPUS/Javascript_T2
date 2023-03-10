@@ -1,6 +1,6 @@
-console.log(`<--- Metodo substring:  se utiliza para devolver una parte de una cadena, desde el índice especificado hasta el índice final especificado. --->`);
-let cadena = "Daniel Fernández";
+console.log(`<--- Metodo split:  se utiliza para dividir una cadena en una matriz de subcadenas, utilizando un separador especificado. --->`);
+let cadena = "Daniel Felipe Fernández Rincón";
 
 console.log(`Cadena: ${cadena}
-    cadena.substring(0,10): ${cadena.substring(0,10)}    
+    cadena.split(" "): ${cadena.split(" ")}    
 `);
