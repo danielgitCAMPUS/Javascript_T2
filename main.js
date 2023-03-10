@@ -1,5 +1,6 @@
-console.log(` <--- Metodo lastIndexOf:  Devuelve el índice del último carácter especificado en una cadena. --->`);
+console.log(` <--- Metodo search: Busca una cadena para una expresión regular y devuelve el índice del primer carácter de la primera coincidencia. --->`);
 let cadena = "Daniel Fernández";
-console.log(`Cadena: ${cadena}
-    cadena.lastIndexOf("n"): Buscar el ultimo caracter "n" 
-    Indice de la ultima n: ${cadena.lastIndexOf("n")}`);
+let regex  = /nán/;
+console.log(`Cadena: ${cadena} , Regex: ${regex}
+    cadena.search(regex): ${cadena.search(regex)}
+    Retorna el indice de la primera n en cadena, basada en la busqueda de regex`);
